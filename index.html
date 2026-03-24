@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Azra Shafi Khan | UI/UX Designer Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">Azra Shafi<span class="logo-highlight"> </span>Khan</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<main>
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="container">
+            <div class="hero">
+                <div class="hero-content">
+                    <span class="hero-badge"><i class="fas fa-paintbrush-fine"></i> UI/UX Designer & Frontend Dev</span>
+                    <h1>Creating digital <span class="hero-highlight">experiences</span> that inspire</h1>
+                    <p class="hero-desc">I'm Azra Shafi Khan — UI/UX designer & frontend developer with a passion for clean interfaces, design systems, and human-centered interactions.</p>
+                    <div class="hero-stats">
+                        <div><span>2+</span> <span>Years Exp</span></div>
+                        <div><span>12+</span> <span>Projects</span></div>
+                        <div><span>100%</span> <span>Commitment</span></div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn">View Work <i class="fas fa-arrow-right"></i></a>
+                        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-avatar">
+                    <i class="fas fa-user-astronaut"></i>
+                    <p>UI/UX Magic</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-wrapper">
+                <div class="about-text">
+                    <p>I'm a multidisciplinary designer & developer, blending creative design with code. Currently working as a UI/UX freelancer and interning in Graphic & Web Development. I design high-fidelity prototypes, build responsive interfaces, and improve engagement through clean layouts.</p>
+                    <p>I'm passionate about design thinking, rapid prototyping, and creating consistent brand identities. I hold a Diploma in Graphic Design (100%) and a Bachelor of Commerce from University of Karachi. Always eager to learn and collaborate on meaningful digital products.</p>
+                </div>
+                <div class="about-card">
+                    <h3><i class="fas fa-code"></i> Core Philosophy</h3>
+                    <p>"Design is not just how it looks, but how it works." I merge aesthetics with usability to craft memorable digital journeys.</p>
+                </div>
+            </div>
+
+            <h3 class="skills-heading">⚡ Skills & Tools</h3>
+            <div class="skills-grid" id="skillsGrid">
+                <!-- Skills will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="container">
+            <h2 class="section-title">Resume / Experience</h2>
+            <div class="resume-block">
+                <div class="resume-grid">
+                    <div class="resume-left">
+                        <h3><i class="fas fa-briefcase"></i> Work Experience</h3>
+                        <div id="workExperience"></div>
+
+                        <h3 style="margin-top: 2rem;"><i class="fas fa-graduation-cap"></i> Education</h3>
+                        <div id="education"></div>
+                    </div>
+
+                    <div class="resume-right">
+                        <h3><i class="fas fa-certificate"></i> Certifications & Training</h3>
+                        <div id="certifications" class="cert-badge-container"></div>
+                        <div class="portfolio-links">
+                            <i class="fas fa-link"></i> <strong>Portfolio & Code</strong><br>
+                            <a href="#">🔗https://github.com/AzraShafiullah1?tab=repositories </a><br>
+                            <a href="#">🎨https://drive.google.com/file/d/1-0pXwCimyQgFYYiR7PC6-tKt9Ly9dXBV/view </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-flex">
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> azrashafikhan@gmail.com</p>
+                    <p><i class="fas fa-phone-alt"></i> +92 3012999294</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Karachi, Pakistan</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-behance"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="email" id="email" placeholder="Email Address" required>
+                        <textarea id="message" rows="3" placeholder="Project idea or message..." required></textarea>
+                        <button type="submit" class="btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                    <div id="formMessage" class="form-message"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>© 2025 Azra Shafi Khan — Designed & built with All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- External JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
