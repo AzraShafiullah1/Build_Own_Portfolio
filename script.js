@@ -42,19 +42,19 @@ const workExperience = [
     {
         title: "UI/UX Designer (Freelancer)",
         location: "",
-        date: "Dec 2024 – Present",
+        date: "Dec 2024",
         description: "Conceptualized responsive web/mobile interfaces, boosting engagement by 25%. Created high-fidelity prototypes & design systems (Figma/Adobe XD), streamlining dev handoff. Developed visual assets using Photoshop/Illustrator."
     },
     {
-        title: "Graphic Design Intern (UI/UX)",
+        title: "Graphic Design Intern",
         location: "",
-        date: "Sep 2025 – Present",
+        date: "Nov 2024 ",
         description: "Assisted in visual content for branding and marketing materials, collaborated on cross-team design projects."
     },
     {
-        title: "Frontend Development Intern (Next.js)",
+        title: "Frontend Development Intern",
         location: "",
-        date: "Sep 2025 – Present",
+        date: "March 2026",
         description: "Worked on web design, logo design, and collaborated to build user-friendly websites and improve UX."
     },
     {
@@ -81,9 +81,10 @@ const educationData = [
 
 // Certifications Data
 const certifications = [
-    "React Developer (Aug-Nov 2024)",
-    "NextJs Developer (May-Jul 2024)",
-    "Frontend Development (Mar 2024 - Jan 2025)",
+    "Graphic Designer (July-Oct 2024)",
+    "React Developer (2024)",
+    "NextJs Developer (2024)",
+    "Frontend Development (Mar 2024 -Jan 2025)",
     "Web Developer (Feb-Apr 2024)",
     "UI/UX Design Thinking",
     "Adobe XD / Figma Mastery"
