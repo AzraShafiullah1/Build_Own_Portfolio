@@ -1,12 +1,10 @@
 // Skills Data
 const skillsList = [
     "Figma", "Adobe XD", "Adobe Illustrator", "Adobe Photoshop", "InDesign","Canva",
-    "UI & UX Design", "Wireframing", "Rapid Prototyping", "HTML5/CSS3",
-    "JavaScript", "TypeScript", "React.js", "Next.js", "Tailwind CSS",
-     "Node.js", "Python", "Angular",
-    "Logo Design", "Color Theory", "Design Thinking", "Video Editing","Adobe InDesign",
+    "UI & UX Design", "Wireframing", "Rapid Prototyping",
+      "Logo Design", "Color Theory", "Design Thinking", "Video Editing","Adobe InDesign",
     "Adobe After Effects",
-    "Graphic Design","Frontend Development",
+    "Graphic Design",
 ];
 
 // Projects Data
@@ -14,7 +12,7 @@ const projectsData = [
     {
         icon: "fas fa-mobile-alt",
         title: "Fintech Dashboard UI",
-        description: "Responsive web & mobile interface that improved user engagement by 25% through clean layouts and intuitive navigation. Built design system in Figma.My project name is ,Wireframe ,visual Design ,Mockups,Mobile App Design ,SaaS website,B2C Service booking website ,CRM website, user interface design,Ecommerce website,Event Listing Mobile App ,Travel booking website,Landing pages,Agency website,Real estate website, Fashion brand website,Restaurant website,Education website",
+        description: " web & mobile interface that improved user engagement through clean layouts and intuitive navigation. Built design system in Figma.My project name is ,Wireframe ,visual Design ,Mockups,Mobile App Design ,SaaS website,B2C Service booking website ,CRM website, user interface design,Ecommerce website,Event Listing Mobile App ,Travel booking website,Landing pages,Agency website,Real estate website, Fashion brand website,Restaurant website,Education website",
         tech: ["Figma","Adobe XD","Canva","Prototyping"]
     },
     {
@@ -23,12 +21,7 @@ const projectsData = [
         description: "Full e-commerce concept with high-fidelity interactive prototype, style guides, and cross-functional collaboration delivering consistent brand identity.My project name is Logo Design ,Poster Design ,Business Card,Logo Redesign,Recreate the Hiring Post For ApexcifyTechnologys Company, storyboarding design ,  Cartoon picture design  ",
         tech: ["Illustrator","Adobe Photoshop","Adobe XD","Figma","Canva","UI Design"]
     },
-    {
-        icon: "fas fa-laptop-code",
-        title: "Portfolio 2024",
-        description: "Developed modern developer portfolio using Next.js,React.js Tailwind, and Framer motion — fully responsive and optimized for performance.My Project name is  Apexcify Technologys Website,Ecommerce website, Product Listing website , Build Your Own Portfolio Site ,Build a Scientific Calculator,Resize image Tool website,Dynamic Resume Builder,To Do List",
-        tech: ["HTML5","CSS3","Javascript","Next.js","Tailwind CSS", "TypeScript"]
-    },
+    
     {
         icon: "fas fa-palette",
         title: "Brand Identity Suite",
@@ -41,23 +34,13 @@ const projectsData = [
 const workExperience = [
     {
         title: "UI/UX Designer Inter",
-        location: "",
-        date: "",
-        description: "Conceptualized responsive web/mobile interfaces, boosting engagement by 25%. Created high-fidelity prototypes & design systems (Figma/Adobe XD), streamlining dev handoff. Developed visual assets using Photoshop/Illustrator."
+    
+        description: "Conceptualized web/mobile interfaces, boosting engagement. Created high-fidelity prototypes & design systems (Figma/Adobe XD), streamlining dev handoff. Developed visual assets using Photoshop/Illustrator."
     },
     {
         title: "Graphic Design Intern",
-        location: "",
-        date: "",
         description: "Assisted in visual content for branding and marketing materials, collaborated on cross-team design projects."
-    },
-    {
-        title: "Frontend Development Intern",
-        location: "",
-        date: "",
-        description: "Worked on web design, logo design, and collaborated to build user-friendly websites and improve UX."
-    },
-   
+    },   
 ];
 
 // Education Data
@@ -77,8 +60,6 @@ const educationData = [
 // Certifications Data
 const certifications = [
     "Graphic Designer (July-Oct 2024)",
-    "NextJs Developer (2024)",
-    "Frontend Development (Mar 2024 -Jan 2025)",
     "UI/UX Design ",
     "UX Design",
     
