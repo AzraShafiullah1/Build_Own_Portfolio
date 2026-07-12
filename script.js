@@ -32,12 +32,12 @@ const projectsData = [
 const workExperience = [
     {
         title: "UI/UX Designer Inter",
-          date:"",
+          date:"2024",
         description: "Conceptualized web/mobile interfaces, boosting engagement. Created high-fidelity prototypes & design systems (Figma/Adobe XD), streamlining dev handoff. Developed visual assets using Photoshop/Illustrator."
     },
     {
         title: "Graphic Design Intern",
-        date:"",
+        date:"2025",
         description: "Assisted in visual content for branding and marketing materials, collaborated on cross-team design projects."
     },   
 ];
