@@ -3,10 +3,10 @@ const skillsList = [
     "Figma", "Adobe XD", "Adobe Illustrator", "Adobe Photoshop", "InDesign","Canva",
     "UI & UX Design", "Wireframing", "Rapid Prototyping", "HTML5/CSS3",
     "JavaScript", "TypeScript", "React.js", "Next.js", "Tailwind CSS",
-    "Bootstrap", "Node.js", "MongoDB", "PostgreSQL", "Python", "Angular",
+     "Node.js", "Python", "Angular",
     "Logo Design", "Color Theory", "Design Thinking", "Video Editing","Adobe InDesign",
-    "ChatGPT/Grok", "Adobe After Effects", "Adobe Premiere Pro",
-    "React Native", "Graphic Design", "Frontend Development","web Development",
+    "Adobe After Effects",
+    "Graphic Design","Frontend Development",
 ];
 
 // Projects Data
@@ -27,7 +27,7 @@ const projectsData = [
         icon: "fas fa-laptop-code",
         title: "Portfolio 2024",
         description: "Developed modern developer portfolio using Next.js,React.js Tailwind, and Framer motion — fully responsive and optimized for performance.My Project name is  Apexcify Technologys Website,Ecommerce website, Product Listing website , Build Your Own Portfolio Site ,Build a Scientific Calculator,Resize image Tool website,Dynamic Resume Builder,To Do List",
-        tech: ["HTML5","CSS3","Javascript","Next.js", "React Native","React js","Tailwind CSS", "TypeScript"]
+        tech: ["HTML5","CSS3","Javascript","Next.js","Tailwind CSS", "TypeScript"]
     },
     {
         icon: "fas fa-palette",
@@ -57,12 +57,7 @@ const workExperience = [
         date: "",
         description: "Worked on web design, logo design, and collaborated to build user-friendly websites and improve UX."
     },
-    {
-        title: "Web Development Internship",
-        location: "",
-        date: "",
-        description: "Frontend development exposure, responsive layouts, team collaboration."
-    }
+   
 ];
 
 // Education Data
@@ -82,13 +77,11 @@ const educationData = [
 // Certifications Data
 const certifications = [
     "Graphic Designer (July-Oct 2024)",
-    "React Developer (2024)",
     "NextJs Developer (2024)",
     "Frontend Development (Mar 2024 -Jan 2025)",
-    "Web Developer (Feb-Apr 2024)",
     "UI/UX Design ",
     "UX Design",
-    "Adobe XD / Figma "
+    
 ];
 
 // Populate Skills
