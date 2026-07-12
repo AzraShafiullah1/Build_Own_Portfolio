@@ -61,6 +61,9 @@ const certifications = [
     "Graphic Designer (July-Oct 2024)",
     "UI/UX Design ",
     "UX Design",
+    "Graphic Designer InterShip",
+    "UI/UX Designer Intership",
+    "UX Designer Intership"
     
 ];
 
