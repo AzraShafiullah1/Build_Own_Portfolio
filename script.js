@@ -1,10 +1,8 @@
 // Skills Data
 const skillsList = [
     "Figma", "Adobe XD", "Adobe Illustrator", "Adobe Photoshop", "InDesign","Canva",
-    "UI & UX Design", "Wireframing", "Rapid Prototyping",
-      "Logo Design", "Color Theory", "Design Thinking", "Video Editing","Adobe InDesign",
-    "Adobe After Effects",
-    "Graphic Design",
+    "UI & UX Design", "Wireframing", "Rapid Prototyping", "Logo Design", "Color Theory",
+    "Design Thinking", "Video Editing","Adobe InDesign","Adobe After Effects", "Graphic Design",
 ];
 
 // Projects Data
@@ -12,21 +10,21 @@ const projectsData = [
     {
         icon: "fas fa-mobile-alt",
         title: "Fintech Dashboard UI",
-        description: " web & mobile interface that improved user engagement through clean layouts and intuitive navigation. Built design system in Figma.My project name is ,Wireframe ,visual Design ,Mockups,Mobile App Design ,SaaS website,B2C Service booking website ,CRM website, user interface design,Ecommerce website,Event Listing Mobile App ,Travel booking website,Landing pages,Agency website,Real estate website, Fashion brand website,Restaurant website,Education website",
+        description: "Web & mobile interface that improves user engagement through clean layouts and intuitive navigation. Built design system in Figma. My project name is, Wireframe ,visual Design, Mockups, Mobile App Design ,SaaS website,B2C Service booking website, , CRM website, user interface design, Ecommerce website, Event Listing Mobile App,Travel booking website, Landing pages, Agency website, Real estate website, Fashion brand website, Restaurant website, Education website",
         tech: ["Figma","Adobe XD","Canva","Prototyping"]
     },
     {
         icon: "fas fa-shopping-cart",
         title: "EcoMarket Place",
-        description: "Full e-commerce concept with high-fidelity interactive prototype, style guides, and cross-functional collaboration delivering consistent brand identity.My project name is Logo Design ,Poster Design ,Business Card,Logo Redesign,Recreate the Hiring Post For ApexcifyTechnologys Company, storyboarding design ,  Cartoon picture design  ",
+        description: "A full e-commerce concept with high-fidelity interactive prototype, style guides, and cross-functional collaboration delivering a consistent brand identity. My project name is Logo Design, Poster Design, Business Card, Logo Redesign, Recreate the Hiring Post, storyboarding design, Cartoon picture design",
         tech: ["Illustrator","Adobe Photoshop","Adobe XD","Figma","Canva","UI Design"]
     },
     
     {
         icon: "fas fa-palette",
         title: "Brand Identity Suite",
-        description: "Logo design, social media visuals, banners, and brand guidelines for multiple startups, enhancing overall brand visibility and professionalism.",
-        tech: ["Adobe Suite", "Branding", "Digital Art,Logo Design"]
+        description: "Logo design, social media visuals, banners, and brand guidelines for multiple startups, enhancing overall brand visibility and professionalism",
+        tech: ["Adobe Suite", "Branding",Logo Design"]
     }
 ];
 
@@ -34,11 +32,12 @@ const projectsData = [
 const workExperience = [
     {
         title: "UI/UX Designer Inter",
-    
+          date:"",
         description: "Conceptualized web/mobile interfaces, boosting engagement. Created high-fidelity prototypes & design systems (Figma/Adobe XD), streamlining dev handoff. Developed visual assets using Photoshop/Illustrator."
     },
     {
         title: "Graphic Design Intern",
+        date:"",
         description: "Assisted in visual content for branding and marketing materials, collaborated on cross-team design projects."
     },   
 ];
