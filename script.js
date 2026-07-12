@@ -42,25 +42,25 @@ const workExperience = [
     {
         title: "UI/UX Designer Inter",
         location: "",
-        date: "Dec 2024",
+        date: "",
         description: "Conceptualized responsive web/mobile interfaces, boosting engagement by 25%. Created high-fidelity prototypes & design systems (Figma/Adobe XD), streamlining dev handoff. Developed visual assets using Photoshop/Illustrator."
     },
     {
         title: "Graphic Design Intern",
         location: "",
-        date: "March 2026",
+        date: "",
         description: "Assisted in visual content for branding and marketing materials, collaborated on cross-team design projects."
     },
     {
         title: "Frontend Development Intern",
         location: "",
-        date: "March 2026",
+        date: "",
         description: "Worked on web design, logo design, and collaborated to build user-friendly websites and improve UX."
     },
     {
         title: "Web Development Internship",
         location: "",
-        date: "Jan 2025 – Feb 2025",
+        date: "",
         description: "Frontend development exposure, responsive layouts, team collaboration."
     }
 ];
@@ -70,7 +70,7 @@ const educationData = [
     {
         degree: "Diploma in Graphic Design",
         institution: "Virtual University of Pakistan",
-        details: "Percentage: 100.00%"
+        details: ""
     },
     {
         degree: "Bachelor of Commerce (Hons.)",
@@ -86,8 +86,9 @@ const certifications = [
     "NextJs Developer (2024)",
     "Frontend Development (Mar 2024 -Jan 2025)",
     "Web Developer (Feb-Apr 2024)",
-    "UI/UX Design Thinking",
-    "Adobe XD / Figma Mastery"
+    "UI/UX Design ",
+    "UX Design",
+    "Adobe XD / Figma "
 ];
 
 // Populate Skills
